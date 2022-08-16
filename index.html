@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="upgrade-insecure-requests"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/200e3edf8e.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>WeatherApp</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>weather app</h1>
+			<div class="top">
+				<div class="main-info">
+					<div class="container">
+						<h3 class="city-name"></h3>
+						<p class="warning hidden">Enter correct name of the city</p>
+						<input type="text" placeholder="Enter a city name" />
+						<button>Search</button>
+					</div>
+					<img
+						src="./img/season.png"
+						alt="Picture showing the weather"
+						class="photo"
+					/>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="headings">
+					<p>Weather:</p>
+					<p>Temperature:</p>
+					<p>Humidity:</p>
+				</div>
+				<div class="weather-info">
+					<p class="weather"></p>
+					<p class="temperature"></p>
+					<p class="humidity"></p>
+				</div>
+			</div>
+		</div>
+		<!-- <a href="https://www.flaticon.com/free-icons/weather" title="weather icons"
+			>Weather icons created by GOWI - Flaticon</a
+		> -->
+		<script src="./js/main.js" defer></script>
+	</body>
+</html>
