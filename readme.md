@@ -1,8 +1,7 @@
-Link do live: https://weatherap-plication.netlify.app/
+Link do live: https://63ac99c822109f2902eeea2b--soft-cranachan-a22892.netlify.app/
 
 
 14.08
-- Pomyślałem, żeby zapisywać swoje problemy nad tym projektem.
 - Poprzednio miałem problem z przekazaniem wartości z jednej funkcji do drugiej - udało mi się to roziwązać poprzez 'parse'
 - Parę problemów, rozwiązywałem też po omacku, próbując samemu je rozwiązać - tak po części rozwiązałem error z przekazywaniem wartości z jednej funkcji do drugiej
 - Na chwilę obecną mam problem, żeby na 'clicka' odpalała się kolejka funkcji. Funkcja o nazwie getWeather nie przekazuje dalej danych. Natomiast event click na buttonie działa poprawnie, loguje w konsoli zawartość inputa.
