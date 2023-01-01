@@ -1,11 +1,10 @@
-Link do live: https://63ac99c822109f2902eeea2b--soft-cranachan-a22892.netlify.app/
+https://weatherap-plication.netlify.app/
 
 
 14.08
 - Poprzednio miałem problem z przekazaniem wartości z jednej funkcji do drugiej - udało mi się to roziwązać poprzez 'parse'
-- Parę problemów, rozwiązywałem też po omacku, próbując samemu je rozwiązać - tak po części rozwiązałem error z przekazywaniem wartości z jednej funkcji do drugiej
 - Na chwilę obecną mam problem, żeby na 'clicka' odpalała się kolejka funkcji. Funkcja o nazwie getWeather nie przekazuje dalej danych. Natomiast event click na buttonie działa poprawnie, loguje w konsoli zawartość inputa.
-- 16:10 - wyskoczyły mi w konsoli errory, przeraziłem się co się dzieje, natomiast po jakimś czasie przy pomocy console.logów udało mi się zlokalizować problem.
+- Wyskoczyły mi w konsoli errory, przeraziłem się co się dzieje, natomiast po jakimś czasie przy pomocy console.logów udało mi się zlokalizować problem.
 
     "Your account is temporary blocked due to exceeding of requests limitation of your subscription type. Please choose the proper subscription"
 
